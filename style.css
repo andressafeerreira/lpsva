@@ -1,12 +1,14 @@
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
+
+  font-family: "Montserrat", sans-serif;
 }
 
 :root {
   --white: #FFFFFF;
   --blue: #4C98CD;
+  --blue-dark: #172554;
   --purple: #471756;
   --dark-purple: #260932;
   --light-purple: #712682;
@@ -27,5 +29,8 @@
 }
 
 .padding-global {
-  padding-left: 180px;
+
+}
+
+.first-section {
 }
