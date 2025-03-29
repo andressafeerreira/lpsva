@@ -31,9 +31,35 @@
   display: flex;
 }
 
-.padding-global {
-
+.container-infinity {
+  width: 100%;
+  color: var(--white);
+  background: var(--blue);
+  overflow: hidden;
+  display: grid;
+  position: absolute;
 }
 
-.first-section {
+.infinity {
+  white-space: nowrap; 
+  animation: scrollText 50s infinite linear;
+}
+
+.infinity span {
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.infinity span::after {
+  content: " ";
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
 }
