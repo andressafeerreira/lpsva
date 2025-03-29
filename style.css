@@ -5,7 +5,11 @@
 }
 
 :root {
-
+  --white: #FFFFFF;
+  --blue: #4C98CD;
+  --purple: #471756;
+  --dark-purple: #260932;
+  --light-purple: #712682;
 }
 
 .logo {
