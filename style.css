@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+}
+
+.logo {
+  width: 156px;
+  max-width: 100%;
+}
+
+.people {
+  width: 492px;
+  max-width: 100%;
+}
+
+.primary {
+  display: flex;
+}
+
+.padding-global {
+  padding-left: 180px;
+}
