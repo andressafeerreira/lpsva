@@ -10,8 +10,11 @@
   --blue: #4C98CD;
   --blue-dark: #172554;
   --purple: #471756;
-  --dark-purple: #260932;
-  --light-purple: #712682;
+  --purple-100: #712682;
+  --purple-200: #321040;
+  --purple-300: #260932;
+  --purple-border: #532463;
+  --purple-border-bottom: #46134b;
 }
 
 .logo {

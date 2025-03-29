@@ -9,6 +9,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/bold/style.css"
+  />
   <link rel="stylesheet" href="style.css">
   
   <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
@@ -17,8 +22,8 @@
   <div class="w-full h-screen bg-blue-500 flex justify-center main text-blue-100">
     <div class="">
       <!-- Initial section banner -->
-      <section class="first-section bg-[url('assets/bg-banner.png')] bg-no-repeat bg-left-top bg-auto px-4 md:px-20 lg:px-80 pb-10 pt-10">
-        <div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0">
+      <section class="first-section bg-[url('assets/bg-banner.png')] bg-no-repeat bg-cover bg-left-top bg-auto px-4 md:px-20 lg:px-80 pb-10 pt-10">
+        <div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 gap-6">
           <div class="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left">
             <div class="content-logo">
               <div class="logo">
@@ -31,15 +36,15 @@
                 <h2 class="text-2xl text-[var(--white)] font-medium">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
               </div>
               <div class="pt-2 pb-2">
-                <p class="text-justify text-sm md:text-base text-white pb-2">
+                <p class="text-center md:text-justify text-sm md:text-base text-white pb-2">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit iste a laboriosam quo, totam ex accusamus delectus aut perferendis sequi nemo inventore possimus mollitia deleniti ratione facilis vitae alias earum.
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero et a eum rem modi assumenda consequuntur eos illum. Quos debitis, sunt minus saepe vero repellendus cumque. Ratione nesciunt modi nam.
                 </p>
-                <p class="text-justify text-sm md:text-base text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <p class="text-center md:text-justify text-sm md:text-base text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
               </div>
               <div class="pt-6">
                 <a 
-                  class="text-[var(--white)] bg-[var(--blue)] px-6 py-3 rounded-lg text-lg md:text-xl font-bold transition-all duration-300 hover:bg-[var(--blue-dark)] hover:scale-105 inline-block"
+                  class="w-60 text-center text-[var(--white)] bg-[var(--blue)] px-6 py-3 rounded-lg text-lg md:text-xl font-bold transition-all duration-300 hover:bg-[var(--blue-dark)] hover:scale-105 inline-block"
                   href="#"
                 >
                   Quero participar!
@@ -56,9 +61,91 @@
       </section>
       <!-- End first section -->
       <!-- Initial second section -->
-      <section class="first-section bg-[url('assets/bg-banner.png')] bg-no-repeat bg-left-top bg-auto px-4 md:px-20 lg:px-80 pb-10 pt-10">
+      <section class="first-section bg-[url('assets/bg-purple.png')] bg-no-repeat bg-left-top bg-auto px-4 md:px-20 lg:px-80 pb-20 pt-20">
+        <div class="w-full">
+          <div class="flex justify-center items-center flex-col transition-all duration-300 hover:scale-105">
+            <span class="text-2xl font-normal text-center">
+              <span class="text-[var(--white)]"><strong class="text-[var(--blue)]">Lorem ipsum </strong>- sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+            </span>
+            <p class="text-[var(--white)] text-center pt-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptates ad at! Dignissimos recusandae dolorem soluta et nobis, voluptas nisi aliquam sunt assumenda iusto, tempore enim esse dolore commodi iste!
+            </p>
+          </div>
+        </div>
       </section>
       <!-- End second section -->
+      <!-- Inital third section -->
+      <section class="bg-[var(--purple-300)] bg-auto px-4 md:px-20 lg:px-80 pb-20 pt-20">
+        <div class="w-full">
+          <div class="flex justify-center items-center flex-col">
+            <div>
+              <h2 class="text-2xl text-[var(--white)] font-medium text-center">Porque participar?</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 grid-flow-row gap-4 pt-10">
+              <div class="w-full flex flex-col justify-center items-center h-40 w-full bg-[var(--purple-200)] border-[var(--purple-border)] border-1 rounded-xl p-3 transition-transform transform hover:translate-y-[-10px]">
+                <div>
+                  <i class="ph-bold ph-target"></i>
+                </div>
+                <div>
+                  <span>Lorem ipsum dolor sit</span>
+                </div>
+              </div>
+              <div class="w-full flex flex-col justify-center items-center h-40 w-full bg-[var(--purple-200)] border-[var(--purple-border)] border-1 rounded-xl p-3 transition-transform transform hover:translate-y-[-10px]">
+                <div>
+                  <i class="ph-bold ph-smiley"></i>
+                </div>
+                <div>
+                  <span>Lorem ipsum dolor sit</span>
+                </div>
+              </div>
+              <div class="w-full flex flex-col justify-center items-center h-40 w-full bg-[var(--purple-200)] border-[var(--purple-border)] border-1 rounded-xl p-3 transition-transform transform hover:translate-y-[-10px]">
+                <div>
+                  <i class="ph-bold ph-sparkle"></i>
+                </div>
+                <div>
+                  <span>Lorem ipsum dolor sit</span>
+                </div>
+              </div>
+              <div class="w-full flex flex-col justify-center items-center h-40 w-full bg-[var(--purple-200)] border-[var(--purple-border)] border-1 rounded-xl p-3 transition-transform transform hover:translate-y-[-10px]">
+                <div>
+                  <i class="ph-bold ph-rocket-launch"></i>
+                </div>
+                <div>
+                  <span>Lorem ipsum dolor sit</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center items-center flex-col pt-20">
+            <div>
+              <h2 class="text-2xl text-[var(--white)] font-medium text-center">Quem pode participar?</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 grid-flow-row gap-4 pt-10">
+              <div class="w-full flex flex-col justify-center items-center p-4 w-full border-b-1 border-[var(--purple-border-bottom)] transition-transform transform hover:translate-y-[-10px]">
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+              </div>
+              <div class="w-full flex flex-col justify-center items-center p-4 w-full border-b-1 border-[var(--purple-border-bottom)] transition-transform transform hover:translate-y-[-10px]">
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+              </div>
+              <div class="w-full flex flex-col justify-center items-center p-4 w-full border-b-1 border-[var(--purple-border-bottom)] transition-transform transform hover:translate-y-[-10px]">
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+              </div>
+              <div class="w-full flex flex-col justify-center items-center p-4 w-full border-b-1 border-[var(--purple-border-bottom)] transition-transform transform hover:translate-y-[-10px]">
+               <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center pt-6">
+            <a 
+              class="w-60 text-center [var(--white)] bg-[var(--blue)] px-6 py-3 rounded-lg text-sm md:text-base transition-all duration-300 hover:bg-[var(--blue-dark)] hover:scale-105 inline-block"
+              href="#"
+            >
+              É para mim!
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- End third section -->
     </div>
   </div>
 </body>
